@@ -8,11 +8,9 @@ package uts2401083012;
  *
  * @author FA506NF
  */
-
-//soal group A
 public class kendaraan {
     protected int jmlRoda;
-    private String warna;
+    protected String warna;
     
     public kendaraan(){
         
@@ -33,5 +31,10 @@ public class kendaraan {
     public void setwarna(String warna){
         this.warna = warna;
     }
-
+    public void Display(){
+        System.out.println("Kendaraan");
+        System.out.println("Jumlah Roda : "+this.jmlRoda);
+        System.out.println("Warna : "+this.warna);
+    }
 }
+

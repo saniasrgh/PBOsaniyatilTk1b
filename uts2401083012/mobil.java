@@ -9,8 +9,8 @@ package uts2401083012;
  * @author FA506NF
  */
 public class mobil extends kendaraan{
-    private String bahanBakar;
-    private int kapasitasMesin;
+   protected String bahanBakar;
+   protected int kapasitasMesin;
     
    public mobil(){
        
@@ -32,4 +32,12 @@ public class mobil extends kendaraan{
    public void setkapasitasMesin(int kapasitasMesin){
        this.kapasitasMesin = kapasitasMesin;
    }
+   @Override
+   public void Display(){
+        System.out.println("Kendaraan Mobil");
+        System.out.println("Jumlah Roda : "+this.jmlRoda);
+        System.out.println("Warna : "+this.warna);
+        System.out.println("Bahan Bakar : "+this.bahanBakar);
+        System.out.println("Kapasitas Mesin : "+this.kapasitasMesin+" cc");
+    }
 }
