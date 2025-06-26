@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="nakhir" max="32767" attributes="0"/>
+                  <Component id="nquiz" min="-2" pref="90" max="-2" attributes="0"/>
+                  <Component id="namasiswa" alignment="0" max="32767" attributes="0"/>
+                  <Component id="gender" alignment="0" max="32767" attributes="0"/>
+                  <Component id="ntugas" alignment="0" max="32767" attributes="0"/>
+                  <Component id="nuas" alignment="0" max="32767" attributes="0"/>
+                  <Component id="nuts" alignment="0" max="32767" attributes="0"/>
+                  <Component id="konversinilai" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="txtnilaiakhir" min="-2" pref="108" max="-2" attributes="0"/>
+                  <Component id="rbpr" min="-2" pref="98" max="-2" attributes="0"/>
+                  <Component id="rblaki" min="-2" pref="98" max="-2" attributes="0"/>
+                  <Component id="txtnama" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txttugas" max="32767" attributes="0"/>
+                  <Component id="txtuts" max="32767" attributes="0"/>
+                  <Component id="txtuas" max="32767" attributes="0"/>
+                  <Component id="txtquiz" max="32767" attributes="0"/>
+                  <Component id="txtkonv" min="-2" pref="108" max="-2" attributes="0"/>
+                  <Component id="btnhitung" pref="109" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="104" max="32767" attributes="0"/>
+              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="jLabel9" min="-2" pref="28" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="namasiswa" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtnama" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="rblaki" min="-2" max="-2" attributes="0"/>
+                  <Component id="gender" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="rbpr" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ntugas" min="-2" max="-2" attributes="0"/>
+                  <Component id="txttugas" pref="29" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="nquiz" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtquiz" min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="nuts" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtuts" pref="29" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="nuas" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtuas" min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnhitung" min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nakhir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtnilaiakhir" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtkonv" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="konversinilai" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="namasiswa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nama Siswa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rblaki">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Laki - Laki"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnama">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtnamaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="gender">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gender"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbpr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Perempuan"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbprActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ntugas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nilai Tugas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txttugas">
+    </Component>
+    <Component class="javax.swing.JLabel" name="nquiz">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nilai Quiz"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtquiz">
+    </Component>
+    <Component class="javax.swing.JLabel" name="nuts">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nilai UTS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtuts">
+    </Component>
+    <Component class="javax.swing.JLabel" name="nuas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nilai UAS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtuas">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtuasActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="konversinilai">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Konversi Nilai Huruf"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtkonv">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnhitung">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hitung"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnhitungActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nakhir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nilai Akhir"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnilaiakhir">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Semibold" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PERHITUNGAN NILAI SISWA"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
